@@ -354,6 +354,7 @@ function OnEvent(event, arg)
 		else
 			macro = false
 			OutputLogMessage("m16 off\n")
+			SetBacklightColor(0,0,255, "mouse") --m16 off Green Color ! 
 			OutputLCDMessage("m16 off",500000)
 		end
 		scr()
@@ -374,6 +375,7 @@ function OnEvent(event, arg)
 		else
 			macro = false
 			OutputLogMessage("m4 off\n")
+			SetBacklightColor(0,0,255, "mouse") --m4 off Green Color ! 
 			OutputLCDMessage("m4 off",500000)
 		end
 		scr()
@@ -394,6 +396,7 @@ function OnEvent(event, arg)
 		else
 			macro = false
 			OutputLogMessage("uzi off\n")
+			SetBacklightColor(0,0,255, "mouse") --uzi off Green Color ! 
 			OutputLCDMessage("uzi off",500000)
 		end
 		scr()
@@ -415,7 +418,7 @@ function OnEvent(event, arg)
 		else
 			macro = false
 			OutputLogMessage("ump9 off\n")
-			SetBacklightColor(0,0,255, "mouse")
+			SetBacklightColor(0,0,255, "mouse") --ump9 off Green Color ! 
 			OutputLCDMessage("ump9 off",500000)
 		end
 		scr()
@@ -436,6 +439,7 @@ function OnEvent(event, arg)
 		else
 			macro = false
 			OutputLogMessage("scar off\n")
+			SetBacklightColor(0,0,255, "mouse") --scar off Green Color ! 
 			OutputLCDMessage("scar off",500000)
 		end
 		scr()
@@ -456,6 +460,7 @@ function OnEvent(event, arg)
 		else
 			macro = false
 			OutputLogMessage("mini off\n")
+			SetBacklightColor(0,0,255, "mouse") --mini off Green Color ! 
 			OutputLCDMessage("mini off",500000)
 		end
 		scr()
