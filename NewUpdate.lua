@@ -333,7 +333,7 @@ function OnEvent(event, arg)
 		else
 			macro = false
 			OutputLogMessage("akm off\n")
-			SetBacklightColor(0,0,255, "mouse") --Akm off Green Color ! 
+			SetBacklightColor(0,0,255, "mouse") --Akm off Blue Color ! 
 			OutputLCDMessage("akm off",500000)
 		end
 		scr()
@@ -350,11 +350,12 @@ function OnEvent(event, arg)
 		if IsM16 then
 			macro = true
 			OutputLogMessage("m16 on\n")
+			SetBacklightColor(255,255,0, "mouse") --m16 is yellow color !
 			OutputLCDMessage("m16 on",500000)
 		else
 			macro = false
 			OutputLogMessage("m16 off\n")
-			SetBacklightColor(0,0,255, "mouse") --m16 off Green Color ! 
+			SetBacklightColor(0,0,255, "mouse") --m16 off blue Color ! 
 			OutputLCDMessage("m16 off",500000)
 		end
 		scr()
@@ -371,11 +372,12 @@ function OnEvent(event, arg)
 		if IsM4 then
 			macro = true
 			OutputLogMessage("m4 on\n")
+			SetBacklightColor(255,255,255, "mouse") --m4 is white color !
 			OutputLCDMessage("m4 on",500000)
 		else
 			macro = false
 			OutputLogMessage("m4 off\n")
-			SetBacklightColor(0,0,255, "mouse") --m4 off Green Color ! 
+			SetBacklightColor(0,0,255, "mouse") --m4 off blue Color ! 
 			OutputLCDMessage("m4 off",500000)
 		end
 		scr()
@@ -392,11 +394,12 @@ function OnEvent(event, arg)
 		if IsUZI then
 			macro = true
 			OutputLogMessage("uzi on\n")
+			SetBacklightColor(255,0,255, "mouse") --uzi is pink color !
 			OutputLCDMessage("uzi on",500000)
 		else
 			macro = false
 			OutputLogMessage("uzi off\n")
-			SetBacklightColor(0,0,255, "mouse") --uzi off Green Color ! 
+			SetBacklightColor(0,0,255, "mouse") --uzi off blue Color ! 
 			OutputLCDMessage("uzi off",500000)
 		end
 		scr()
@@ -413,12 +416,12 @@ function OnEvent(event, arg)
 		if IsUMP9 then
 			macro = true
 			OutputLogMessage("ump9 on\n")
-			SetBacklightColor(0,255,0, "mouse")
+			SetBacklightColor(0,255,0, "mouse") --ump9 on Green Color !
 			OutputLCDMessage("ump9 on",500000)
 		else
 			macro = false
 			OutputLogMessage("ump9 off\n")
-			SetBacklightColor(0,0,255, "mouse") --ump9 off Green Color ! 
+			SetBacklightColor(0,0,255, "mouse") --ump9 off blue Color ! 
 			OutputLCDMessage("ump9 off",500000)
 		end
 		scr()
@@ -435,11 +438,12 @@ function OnEvent(event, arg)
 		if IsSCAR then
 			macro = true
 			OutputLogMessage("scar on\n")
+			SetBacklightColor(0,0,0, "mouse") --scar on black Color !
 			OutputLCDMessage("scar off",500000)
 		else
 			macro = false
 			OutputLogMessage("scar off\n")
-			SetBacklightColor(0,0,255, "mouse") --scar off Green Color ! 
+			SetBacklightColor(0,0,255, "mouse") --scar off Blue Color ! 
 			OutputLCDMessage("scar off",500000)
 		end
 		scr()
@@ -456,11 +460,12 @@ function OnEvent(event, arg)
 		if IsMINI then
 			macro = true
 			OutputLogMessage("mini on\n")
+			SetBacklightColor(50,155,255, "mouse") --mini on Turkuaz Color !
 			OutputLCDMessage("mini off",500000)
 		else
 			macro = false
 			OutputLogMessage("mini off\n")
-			SetBacklightColor(0,0,255, "mouse") --mini off Green Color ! 
+			SetBacklightColor(0,0,255, "mouse") --mini off Blue Color ! 
 			OutputLCDMessage("mini off",500000)
 		end
 		scr()
@@ -476,7 +481,7 @@ function OnEvent(event, arg)
 		IsMINI = false
 		macro = false
 		OutputLogMessage("all gun off\n")
-		SetBacklightColor(0,0,255, "mouse") --Off All - Green -Check 4. line  
+		SetBacklightColor(0,0,255, "mouse") --Off All - Blue -Check 4. line  
 		OutputLCDMessage("all gun off",500000)
 		scr()
     end
